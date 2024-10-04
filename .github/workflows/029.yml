@@ -4,7 +4,7 @@ on:
   pull_request:
   workflow_dispatch:  
   schedule:
-  - cron: "*/30 * * * *"
+  - cron: "*/10 * * * *"
   
 jobs:
   build:
@@ -48,11 +48,11 @@ jobs:
         run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_OnWR8rL6UVDxQoCAVu0kxLB6eOMi/eJTgR4qkWV
       - name: Run a one-line script
         run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_OnWR8rL6UVDxQoCAVu0kxLB6eOMi/eJTgR4qkWV
+      - name: Run a one-line script
+        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_CdhT9whzlNmGsSWUIND6qoJhC19q/uyR3DIB50T
+      - name: Run a one-line script
+        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_CdhT9whzlNmGsSWUIND6qoJhC19q/uyR3DIB50T
         
-      - name: Run a one-line script
-        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_4rFFRi3Pn1fGz10iRj1vrwOoYMNw/RUceOZ4oam
-      - name: Run a one-line script
-        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_4rFFRi3Pn1fGz10iRj1vrwOoYMNw/RUceOZ4oam
       - name: Run a one-line script
         run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_5YnnN1IF7BMH3SMKtgI7PFjtHJRr/WSCuYTcI9k
       - name: Run a one-line script
